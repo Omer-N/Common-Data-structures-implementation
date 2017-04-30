@@ -16,7 +16,7 @@ public class ListNode<T> {
         this.next = next;
     }
 
-    public T getObject() {
+    public T getData() {
         return object;
     }
 

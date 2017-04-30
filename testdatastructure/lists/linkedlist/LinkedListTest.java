@@ -103,4 +103,24 @@ class LinkedListTest {
         assertFalse(list.contains("0"));
     }
 
+    @Test
+    void iterator() {
+        List<Double> list = new LinkedList<>();
+        Double[] doubles = new Double[4];
+        list.insert(5.0);
+        doubles[0] = 5.0;
+        list.insert(8.0);
+        doubles[1] = 8.0;
+        list.insert(9.0);
+        doubles[2] = 9.0;
+        list.insert(10.0);
+        doubles[3] = 10.0;
+
+        int index = 0;
+        for (Double aDouble : list) {
+            assertEquals(aDouble, doubles[index]);
+            index++;
+        }
+    }
+
 }

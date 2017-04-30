@@ -11,14 +11,14 @@ class ListNodeTest {
     @org.junit.jupiter.api.Test
     void getObject() {
         ListNode<String> listNode = new ListNode<String>("Blabla");
-        assertEquals("Blabla", listNode.getObject());
+        assertEquals("Blabla", listNode.getData());
     }
 
     @org.junit.jupiter.api.Test
     void setObject() {
         ListNode<String> listNode = new ListNode<String>("Blabla");
         listNode.setObject("lorem ipsum");
-        assertEquals("lorem ipsum", listNode.getObject());
+        assertEquals("lorem ipsum", listNode.getData());
     }
 
     @org.junit.jupiter.api.Test
