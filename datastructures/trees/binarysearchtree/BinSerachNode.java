@@ -74,7 +74,7 @@ public class BinSerachNode<T extends Comparable<T>> {
                     return getRightNode();
             }
             else {
-                T minimum = findMin();
+                T minimum = getRightNode().findMin();
                 setData(minimum);
                 rightNode.remove(minimum);
             }
