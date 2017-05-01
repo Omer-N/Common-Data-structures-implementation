@@ -3,7 +3,7 @@ package lists;
 /**
  * List basic operations
  */
-public interface List<T> {
+public interface List<T> extends Iterable<T> {
     /**
      * Insert given object to the list
      *
