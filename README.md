@@ -9,3 +9,6 @@ This data structures designed fully generic and you can fork this repository and
 
 ### Trees
 1. Binary Search Tree
+
+### Stack
+1. Stack with nodes
